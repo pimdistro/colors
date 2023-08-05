@@ -38,8 +38,8 @@ end
 
 Group.new("Header", c.white, c.none, s.none)
 Group.new("Normal", c.grey, c.none, s.none)
-Group.new("Noise", c.dark, c.none, s.none)
-Group.new("Comment", c.darker, c.none, s.none)
+Group.new("Noise", c.cyan, c.none, s.none)
+Group.new("Comment", c.darkest, c.none, s.none)
 Group.new("NonText", c.darkest, c.none, s.none)
 
 Group.new("Error", c.red, c.none, s.none)
@@ -275,6 +275,7 @@ Group.link("cssMediaType", g.User2)
 
 Group.link("rustAttribute", g.Noise)
 Group.link("rustCommentLineDoc", g.NonText)
+Group.link("rustComment", g.NonText)
 Group.link("rustDerive", g.Noise)
 Group.link("rustEnumVariant", g.User1)
 Group.link("rustLifetime", g.User2)
